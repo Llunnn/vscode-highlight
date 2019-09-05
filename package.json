@@ -1,6 +1,6 @@
 {
-	"name": "keyword-hiding",
-	"displayName": "keyword hiding",
+	"name": "highlight-keyword",
+	"displayName": "highlight-keyword",
 	"description": "",
 	"version": "0.0.1",
 	"engines": {
@@ -13,14 +13,6 @@
 		"*"
 	],
 	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
-			}
-		]
-	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
